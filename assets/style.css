@@ -1,0 +1,58 @@
+header{
+    background-color: palevioletred;
+    padding: 14px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name{
+   font-size: 30px;
+   color: white;
+
+}
+
+.nav{
+    display: flex;
+
+}
+
+.nav > li > a{
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+
+}
+
+.welcome{
+    background-image: url(./img/線画余白あり.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    .contents{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px auto;
+        font-size: 20px;
+        text-align: left;
+    }
+    
+    .contents_scoreimage{
+        height: 150px;
+        margin: opx 20px;
+    }
+    
+    .discription{
+        width: 50%;
+    
+    }
