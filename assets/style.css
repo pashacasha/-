@@ -25,7 +25,7 @@ header{
 
 }
 
-.welcome{
+/* .welcome{
     background-image: url(./img/線画余白あり.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -35,8 +35,17 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 
+    .welcome{
+        height: 200px;
+        width: 400px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+    }
 
     .contents{
         display: flex;
